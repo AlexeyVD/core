@@ -9,5 +9,5 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.AlexeyVD:core:0.0.2'
+    implementation 'com.github.AlexeyVD:core:0.0.3'
 }

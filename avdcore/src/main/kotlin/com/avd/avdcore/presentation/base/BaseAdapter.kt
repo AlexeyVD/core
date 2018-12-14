@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 abstract class BaseAdapter<T, VH : BaseViewHolder<T>> : RecyclerView.Adapter<VH>() {
 
-    protected val elements = ArrayList<T>()
+    val elements = ArrayList<T>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
 
